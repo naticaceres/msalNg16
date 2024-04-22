@@ -59,5 +59,5 @@ export class AppComponent implements OnInit, OnDestroy {
     this.destroy$.complete();
   }
 
-  logout() {this.msalService.logoutRedirect({postLogoutRedirectUri: '/'})}
+  logout() {this.msalService.logoutRedirect({postLogoutRedirectUri: 'http://localhost:4201'})}
 }

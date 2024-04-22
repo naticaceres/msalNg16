@@ -32,10 +32,9 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
     MsalModule.forRoot(
       new PublicClientApplication({
         auth: {
-          clientId: 'bce2aefe-35bc-4218-8add-6a885bed7a8c',
-          authority:
-            'https://login.microsoftonline.com/6c529608-dd33-4e2f-8d4f-cf5e0147febd',
-          redirectUri: 'http://localhost:4200',
+          clientId: 'clientID',
+          authority: 'authority',
+          redirectUri: 'http://localhost:4201',
         },
         cache: {
           cacheLocation: 'localStorage',
